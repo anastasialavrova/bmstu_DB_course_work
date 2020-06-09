@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Добавить новость
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+
+    <div class="parent">
+<a href="{{ url_for('admin_space') }}">Вернуться в личный кабинет</a>
+    </div>
+    </div>
+
+<div class="container mt-5">
+    <h1>Добавить новость</h1>
+    <form method="post">
+        <input type="text" name="add_title" id="add_title" class="form-control" placeholder="Введите заголовок" required=""><br>
+        <textarea name="add_text" id="add_text" class="form-control" placeholder="Введите текст" required=""></textarea><br>
+        <input type="submit" class="btn btn-success" value="Добавить">
+    </form>
+</div>
+
+
+
+{% endblock %}

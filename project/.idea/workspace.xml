@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c23a86-2df2-4e49-8a0d-bcf75c5b2b52" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="UML Use Case" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bb5UXTfUKf7psu20KhryZyHcWX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/image" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start">
+    <configuration name="db_work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_work.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="start.py" />
+        <env name="FLASK_DEBUG" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.db_work" />
+        <item itemvalue="Python.start (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c23a86-2df2-4e49-8a0d-bcf75c5b2b52" name="Default Changelist" comment="" />
+      <created>1588887968627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588887968627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588888910916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1588888910916" />
+    <state x="184" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.787@0.23.1440.787" timestamp="1588888012388" />
+    <state x="440" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590070662016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="440" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1590070662016" />
+    <state x="474" y="173" key="EnvironmentVariablesDialog" timestamp="1588888909486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="173" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588888909486" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1591289244694">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591289244694" />
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.23.1440.787@0.23.1440.787" timestamp="1591148662653" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1591289244692">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591289244692" />
+    <state width="1398" height="182" key="GridCell.Tab.0.center/0.23.1440.787@0.23.1440.787" timestamp="1591148662652" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1591289244692">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591289244692" />
+    <state width="1398" height="182" key="GridCell.Tab.0.left/0.23.1440.787@0.23.1440.787" timestamp="1591148662651" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1591289244693">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591289244693" />
+    <state width="1398" height="182" key="GridCell.Tab.0.right/0.23.1440.787@0.23.1440.787" timestamp="1591148662653" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1590795255467">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590754817281" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.23.1440.787@0.23.1440.787" timestamp="1590795255467" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1590795255467">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590754817279" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.23.1440.787@0.23.1440.787" timestamp="1590795255467" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1590795255466">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590754817278" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.23.1440.787@0.23.1440.787" timestamp="1590795255466" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1590795255467">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590754817280" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.23.1440.787@0.23.1440.787" timestamp="1590795255467" />
+    <state x="221" y="37" key="SettingsEditor" timestamp="1590955207864">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="37" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590955207864" />
+    <state x="221" y="55" key="SettingsEditor/0.23.1440.787@0.23.1440.787" timestamp="1588888112246" />
+    <state x="374" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1591271943051">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="374" y="222" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591197323412" />
+    <state x="374" y="217" key="com.intellij.ide.util.TipDialog/0.23.1440.787@0.23.1440.787" timestamp="1591271943051" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="username" language="Python" />
+        <watch expression="form.name.data" language="Python" />
+        <watch expression="time" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

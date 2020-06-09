@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Личный кабинет пользователя
+{% endblock %}
+
+{% block style %}
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {border: 1px solid grey;}
+/* границы ячеек первого ряда таблицы */
+th {border: 1px solid grey;}
+/* границы ячеек тела таблицы */
+td {border: 1px solid grey;}
+body {
+    margin: 0; /* Убираем отступы */
+   }
+   .parent {
+    margin: 0.5%; /* Отступы вокруг элемента */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   .child {
+    border: 3px solid #666; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 10px; /* Отступы вокруг */
+   }
+{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="parent">
+<a href="{{ url_for('admin_space') }}">Вернуться в личный кабинет</a>
+    </div>
+
+
+<form method="POST">
+    {{ form.csrf_token }}
+    {{ form.name }}
+    <input type="submit">
+
+
+
+
+    <br>
+
+<table>
+  <colgroup>
+    <col span="1" style="background-color:#e9edf5"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+    <col><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+  </colgroup>
+
+    {% if sch %}
+    <tr>
+    <th>День недели</th>
+    <th>Время</th>
+    <th>Логин пациента</th>
+    </tr>
+    {% endif %}
+
+{% for one in sch %}
+    <tr>
+        <th>{{ one.notes_day }}</th>
+        <th>{{ one.notes_time }}</th>
+        <th>{{ one.notes_user }}</th>
+
+  </tr>
+  {% endfor %}
+
+</table>
+    <br>
+
+    </form>
+    </div>
+
+{% endblock %}

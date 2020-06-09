@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Личный кабинет доктора
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1>Личный кабинет врача</h1>
+    <a href="{{ url_for('add_new_diagnosis') }}">Добавить новую запись в медицинскую карту пациента</a>
+    <br>
+    <a href="{{ url_for('search_record') }}">Найти медицинскую карту пациента</a>
+    <br>
+    <br>
+    <br>
+    <a href="{{ url_for('log_out') }}">Выйти из личного кабинета</a>
+</div>
+{% endblock %}

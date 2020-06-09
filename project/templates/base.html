@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="static/image/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>{% block title %}{% endblock %}</title>
+    <style>{% block style %}{% endblock %}</style>
+</head>
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal">НОМТЦ МГТУ им. Баумана</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="{{ url_for('hello_world') }}">О нас</a>
+        <a class="p-2 text-dark" href="{{ url_for('news') }}">Новости</a>
+        <a class="p-2 text-dark" href="{{ url_for('doctors') }}">Врачи</a>
+        <a class="p-2 text-dark" href="{{ url_for('schedule') }}">Расписание приёмов</a>
+        <a class="p-2 text-dark" href="{{ url_for('contacts') }}">Контакты</a>
+    </nav>
+    <a class="btn btn-outline-primary" href="{{ url_for('sign_up') }}">Зайти в личный кабинет</a>
+    </div>
+
+    {% block body %}
+    {% endblock %}
+
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">© 2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Информация для пациентов</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="{{ url_for('hello_world') }}">О нас</a></li>
+          <li><a class="text-muted" href="{{ url_for('news') }}">Новости</a></li>
+          <li><a class="text-muted" href="{{ url_for('doctors') }}">Врачи</a></li>
+          <li><a class="text-muted" href="{{ url_for('schedule') }}">Расписание приёмов</a></li>
+          <li><a class="text-muted" href="{{ url_for('contacts') }}">Контакты</a></li>
+          <li><a class="text-muted" href="{{ url_for('sign_up') }}">Войти в личный кабинет</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Мы в социальных сетях</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://vk.com/club158860516">Вконтакте</a></li>
+          <li><a class="text-muted" href="#">Instagram</a></li>
+          <li><a class="text-muted" href="#">Facebook</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
